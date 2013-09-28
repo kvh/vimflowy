@@ -29,6 +29,7 @@ var normalKeybindings = {
 
 var insertKeybindings = {
     "esc": enterNormalMode,
+    "ctrl+j": enterNormalMode,
 
     // TODO: this breaks tab closing (even more)!
     "ctrl+w": commands.deleteWordBack,
